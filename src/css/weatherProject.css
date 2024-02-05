@@ -1,0 +1,52 @@
+.weather-content {
+    height: 90%;
+  padding-bottom: 20px;
+  text-align: center;
+  
+  }
+  .weather-content select{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+  .weather-content select option:hover{
+    color: #045539;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .weather-content .location{
+    border: 2px solid;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .weather-content .country{
+  padding-top: 10px;
+  font-weight: 700;
+  }
+  .weather-content .capital{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+   }
+   .project-container {
+    width: 75%;
+    height: 75%;
+    border: 2px solid orange;
+    border-radius: 10px;
+    overflow: scroll;
+  }
+   .weather-content .icon{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    filter: contrast(200%);
+   }
+   .weather-content .status{
+    padding-top: 10px;
+   }
+   .weather-content .last-update h6{
+    margin-top: 10px;
+   }
+   .weather-content .last-update{
+    color: #aaa;
+   }

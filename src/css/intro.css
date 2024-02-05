@@ -1,0 +1,12 @@
+img{
+    background-color: rgba(30, 49, 43, 0.859);
+    filter: brightness(1.1);
+    filter: contrast(120%);
+}
+.intro a:hover svg{
+    color: orange;
+}
+.intro a svg{
+    width: 25px;
+    height: 25px;
+}

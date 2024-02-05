@@ -1,0 +1,25 @@
+
+.menu-bar a:hover:not(.active) span{
+    color: orange;
+}
+.menu-bar a:hover:not(.active) svg{
+    color: orange;
+}
+.menu-bar a span {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.nav a {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+.tool-bar a{
+    font-size: 20px;
+}
+.menu-bar .active span, .menu-bar .active svg{
+    color: orange;
+}

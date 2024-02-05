@@ -1,0 +1,116 @@
+{
+    "about": {
+            "name": "Hallo! Ich bin Elaheh Hatami Ramsheh",
+            "about": " Front-end developer in Germany, Leipzig. Bachelor im Fach Ingenieurwesen für Computer-Software-Technologie. Ich bringe fundierte Kenntnisse in JavaScript mit und habe Erfahrung in der Arbeit mit Git und GitHub. Auf der Suche nach einer Gelegenheit, meine Fähigkeiten in einem dynamischen Entwicklerteam weiterzuentwickeln.",
+            "email": "ehatami65@gmail.com",
+            "tel": "00491779076870",
+            "address": "Leipzig, Deutschland"
+        }
+    ,
+    "resume": {
+        "skills": [
+            {
+                "header": "html",
+                "value": "90%"
+            },
+            {
+                "header": "css",
+                "value": "80%"
+            },
+            {
+                "header": "bootstrap",
+                "value": "80%"
+            },
+            {
+                "header": "javascript",
+                "value": "60%"
+            },
+            {
+                "header": "jquery",
+                "value": "50%"
+            },
+            {
+                "header": "reactjs",
+                "value": "60%"
+            }
+        ],
+        "education": [
+            {
+                "date": "2008-2010",
+                "titel": "Computer Engineering (Bachelor)",
+                "location": "Shahid Bahonar Univercity of Kerman, Iran"
+            },
+            {
+                "date": "2005-2007",
+                "titel": "Computer Software (Associate Degree)",
+                "location": "Dokhtaran Khansar technische Hochschule, Iran"
+            },
+            {
+                "date": "2003",
+                "titel": "Abitur",
+                "location": "Isfahan, Iran"
+            }
+        ],
+        "experience": [
+            {
+                "date": "Okt.2014 — Jan.2018",
+                "company": "Praxis Dr. Hosseininejad",
+                "location":"Isfahan, Iran",
+                "titel": "Webdesigner/in",
+                "content": [
+                    "Entwicklung, Implementierung und Administration der Webseite des Praxis durch Joomla.",
+                    "Betreuung und Sicherstellung des ordnungsgemäßen Betriebs der Computers und Geräte."
+                ]
+            },
+            {
+                "date": "Nov.2013 — Jun.2014",
+                "company": "Rayaneh Hamrah",
+                "location":"Isfahan, Iran",
+                "titel": "IT-Kundenbetreuer/in",
+                "content": [
+                    "Installation, Konfiguration und Implementierung Windows Betriebssysteme.",
+                    "Installation und Konfiguration Applikationen nach Wunsch von Kunden.",
+                    "Fehlerbehebung der Applikationen.",
+                    "Konfiguration der Routern für Internetanschluss."
+                ]
+            },
+            {
+                "date": "Mrz.2013 — Sep.2013",
+                "company": "selbstständig",
+                "location":"Isfahan, Iran",
+                "titel": "Programmierer/in",
+                "content": [
+                    "Programmierung mit C# & SQL Server Datenbank."
+                ]
+            },
+            {
+                "date": "Aug.2012 — Mrz.2013",
+                "company": "Sepahan",
+                "location":"Isfahan, Iran",
+                "titel": "Programmierer/in",
+                "content": [
+                    "Administration der Webseite der Firma auf Joomla",
+                    "Programmierung, Entwicklung und Implementierung von CRM der Firma durch C# & SQL Server."
+                ]
+            }
+        ],
+        "certificate":[
+            {
+                "titel":"Deutsch B1",
+                "institute":"g.a.s.t.",
+                "location":"Leipzig, Deutschland"
+            },
+            {
+                "titel":"JavaScript Developer",
+                "institute":"alfatraining Bildungszentrum GmbH",
+                "location":"Leipzig, Deutschland"
+            },
+            {
+                "titel":"React JavaScript‐Bibliothek ",
+                "institute":"alfatraining Bildungszentrum GmbH",
+                "location":"Leipzig, Deutschland"
+            }
+        ]
+        
+    }
+}

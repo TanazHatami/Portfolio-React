@@ -1,0 +1,45 @@
+.name {
+  font-size: 17px;
+  font-weight: 600;
+  color: orange;
+}
+.about {
+  line-height: 1.7;
+}
+.content {
+  height: 50%;
+  margin-left: 20.8%;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.contact{
+ height: 90%;
+ }
+.contact textarea {
+  resize: none;
+height: 100%;
+}
+.contact .btn:hover{
+  background-color: orange;
+}
+.content .error{
+  font-size: 14px;
+  color: #aaa;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #045539;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(27, 142, 40);
+}

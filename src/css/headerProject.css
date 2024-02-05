@@ -1,0 +1,20 @@
+
+.project-titel {
+    border-radius: 10px;
+    padding: 10px 0;
+    height: 10%;
+  }
+  
+  .close {
+    text-align: end;
+  }
+  
+  .close a svg {
+    height: 100%;
+    width: 50%;
+    color: rgb(181, 6, 6);
+  }
+  
+  .close a:hover svg {
+    transform: scale(0.9, 0.9);
+  }

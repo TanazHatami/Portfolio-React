@@ -1,0 +1,33 @@
+.project-row {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 3000;
+    height: 100%;
+    width: 100%;
+  }
+.project-list img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid orange;
+  }
+  
+  .project-list img:hover {
+    transform: scale(.9, .9);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .project-list .titel {
+    color: orange;
+    padding-top: 0;
+  }
+  
+  .project-list p {
+    /* text-align: justify; */
+    padding: 0 5px;
+  }
+  .titel-project{
+    font-weight: 800;
+    letter-spacing: 2px;
+    border-bottom: 1px solid;
+    color: orange;
+   }
