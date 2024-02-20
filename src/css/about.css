@@ -6,15 +6,9 @@
 .about {
   line-height: 1.7;
 }
-.content {
-  height: 50%;
-  margin-left: 20.8%;
-  overflow-y: scroll;
-  padding: 20px;
-}
 
 .contact{
- height: 90%;
+ height: 100%;
  }
 .contact textarea {
   resize: none;
@@ -26,20 +20,4 @@ height: 100%;
 .content .error{
   font-size: 14px;
   color: #aaa;
-}
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #045539;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(27, 142, 40);
 }

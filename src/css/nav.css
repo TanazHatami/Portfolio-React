@@ -1,25 +1,34 @@
 
-.menu-bar a:hover:not(.active) span{
-    color: orange;
-}
-.menu-bar a:hover:not(.active) svg{
-    color: orange;
+.nav a {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 0;
+    width: 100%;
+    font-size: 20px;
 }
 .menu-bar a span {
     font-size: 12px;
     text-transform: uppercase;
 }
-.nav a {
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 0;
+.menu-bar a:hover:not(.active) span{
+    color: orange;
+}
+.tool-bar a:hover:not(.active) span{
+    color: orange;
+}
+.menu-bar a:hover:not(.active) svg{
+    color: orange;
+}
+.tool-bar a:hover:not(.active) svg{
+    color: orange;
+}
+.nav .not-active:hover{
     cursor: pointer;
-    width: 100%;
-    font-size: 20px;
+}
+.nav .active:hover{
+    cursor: default;
 }
 .tool-bar a{
     font-size: 20px;
 }
-.menu-bar .active span, .menu-bar .active svg{
-    color: orange;
-}
+

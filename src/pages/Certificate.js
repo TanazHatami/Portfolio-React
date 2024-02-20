@@ -6,16 +6,16 @@ import { ThemeContext } from "../context/themeContext";
 import CertificateBox from "../component/certificateBox";
 export const CertificateContext = createContext();
 export default function Certificate() {
-    const { data, language } = useContext(LanguageContext);
+    const { data} = useContext(LanguageContext);
     const { theme, fontColor } = useContext(ThemeContext);
     const certificates = data?.resume.certificate;
     return (
         <div className="row">
-            <div className="col-5 content position-absolute top-50 start-50 translate-middle text-start"
+            <div id='certificate' className="col-5 content position-absolute top-50 start-50 translate-middle text-start"
                 style={{ "backgroundColor": theme, "color": fontColor }}>
                 <div className="row">
                     <div className="col-12">
-                        <Header titel={language === 'EN' ? "Zertifikat" : "Certificate"} />
+                        <Header titel={"certificate"} />
                     </div>
                 </div>
                 <div className="row">
@@ -32,7 +32,7 @@ export default function Certificate() {
                     </div>
                 </div>
             </div>
-        </div>
+       </div>
 
 
     )

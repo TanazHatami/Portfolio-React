@@ -10,11 +10,11 @@ export default function About() {
     const about = data?.about;
     return (
         <div className="row">
-            <div className="col-5 content position-absolute top-50 start-50 translate-middle text-start"
+            <div id='about' className="col-5 content position-absolute top-50 start-50 translate-middle text-start"
              style={{ "backgroundColor": theme,"color": fontColor }}>
                 <div className="row">
                     <div className="col-12">
-                    <Header titel={language==='EN'?"Über mich":"About"} />
+                    <Header titel={'about'} />
                     </div>
                 </div>
                 <div className="row">

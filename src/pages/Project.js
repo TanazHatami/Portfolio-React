@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext} from "react";
 import { LanguageContext } from "../context/languageContext";
 import Header from "../component/header";
 import { ThemeContext } from "../context/themeContext";
@@ -9,14 +9,13 @@ import '../css/project.css'
 export default function Project() {
     const { language } = useContext(LanguageContext);
     const { theme, fontColor } = useContext(ThemeContext);
-
     return (
         <div className="row">
-            <div className="col-5 content position-absolute top-50 start-50 translate-middle text-start"
+           <div className="col-5 content position-absolute top-50 start-50 translate-middle text-start"
                 style={{ "backgroundColor": theme, "color": fontColor }}>
                 <div className="row">
                     <div className="col-12">
-                        <Header titel={language === 'EN' ? "Projekt" : "Project"} />
+                        <Header titel={"project"} />
                     </div>
                 </div>
                 <div className="row mt-3 project-list">
