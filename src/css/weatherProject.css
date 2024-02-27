@@ -1,6 +1,6 @@
 .weather-content {
-    height: 90%;
-  padding-bottom: 20px;
+    /* height: 90%; */
+  /* padding-bottom: 20px; */
   text-align: center;
   
   }
@@ -30,10 +30,10 @@
    }
    .project-container {
     width: 75%;
-    height: 75%;
+    /* height: 75%; */
     border: 2px solid orange;
     border-radius: 10px;
-    overflow: scroll;
+    /* overflow: scroll; */
   }
    .weather-content .icon{
     width: 100px;

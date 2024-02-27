@@ -9,8 +9,8 @@ export default function ToolBar() {
     const { theme, setTheme,fontColor } = useContext(ThemeContext);
     const { language, setLanguage } = useContext(LanguageContext);
     return (
-        <div className="row m-0 ">
-            <nav className='p-0 nav flex-column tool-bar' >
+        // <div className="row">
+            <nav className='p-0 m-0 nav tool-bar' >
                 <a className="" onClick={setLanguage} style={{ "color": fontColor }}>
                     <span> {language}</span>
                 </a>
@@ -18,6 +18,6 @@ export default function ToolBar() {
                     <FontAwesomeIcon icon={theme === 'white' ? faMoon : faSun} />
                 </a>
             </nav>
-        </div>
+        //  </div>
     )
 }

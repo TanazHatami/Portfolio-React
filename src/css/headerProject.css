@@ -1,11 +1,7 @@
-
-.project-titel {
-    border-radius: 10px;
-    padding: 10px 0;
-    height: 10%;
-  }
-  
-  .close {
+.header-project{
+  border-radius: 10px;
+}
+.close {
     text-align: end;
   }
   

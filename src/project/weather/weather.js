@@ -12,19 +12,19 @@ export default function Weather(props) {
     const wind = props.current?.wind_kph;
     const humidity = props.current?.humidity;
     const update = props.current?.last_updated;
-    const {language}=useContext(LanguageContext);
+    const { language } = useContext(LanguageContext);
     return (
-        <div className='row h-75 pt-5 '>
+        <div className='row'>
             <div className='col-12 weather'>
-                   <WeatherIcon icon={icon}/>
-                    <WeatherStatus status={text}/>
-                    <div className='row m-0 mt-3'>
-                       <WeatherDetail text={temp} titel={language==='EN'?"Temperatur":"Temperature"}/>
-                       <WeatherDetail text={wind} titel={'Wind'}/>
-                       <WeatherDetail text={humidity} titel={language==='EN'?"Feuchtigkeit":"Humidity"}/>
-                    </div>
-                    <WeatherLastUpdate text={language==='EN'?"Letzte Aktualisierung":"Last updated"} update={update}/>
+                <WeatherIcon icon={icon} />
+                <WeatherStatus status={text} />
+                <div className='row m-0 mt-3'>
+                    <WeatherDetail text={temp} titel={language === 'EN' ? "Temperatur" : "Temperature"} />
+                    <WeatherDetail text={wind} titel={'Wind'} />
+                    <WeatherDetail text={humidity} titel={language === 'EN' ? "Feuchtigkeit" : "Humidity"} />
                 </div>
+                <WeatherLastUpdate text={language === 'EN' ? "Letzte Aktualisierung" : "Last updated"} update={update} />
             </div>
+        </div>
     )
 }

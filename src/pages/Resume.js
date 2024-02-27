@@ -7,15 +7,16 @@ import Experience from "../component/experience";
 import '../css/resume.css';
 import Education from "../component/education";
 import Skills from "../component/skills";
+import { ScrollContext } from "./Home";
 export default function Resume() {
     const { data} = useContext(LanguageContext);
-    const { theme, fontColor } = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
     const resume = data?.resume;
+    const {resumeRef}=useContext(ScrollContext);
     return (
         <>
             <div className="row">
-                <div className="col-5 content position-absolute top-50 start-50 translate-middle text-start"
-                    style={{ "backgroundColor": theme, "color": fontColor }}>
+            <div className="col-12 content" style={{ "backgroundColor": theme }} ref={resumeRef}>
                     <div className="row">
                         <div className="col-12">
                             <Header titel={"resume"} />

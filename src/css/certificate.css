@@ -1,7 +1,7 @@
 .certificate-box {
 border: 2px solid orange;
 border-radius: 20px;
-margin: 15px 20px;
+margin: 15px 0px;
 padding: 15px;
 }
 .certificate-box .certificate-titel h5{

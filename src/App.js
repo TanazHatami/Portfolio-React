@@ -11,29 +11,32 @@ import './App.css';
 import WeatherProject from "./project/weather/weatherProject";
 import NotFound from "./pages/notFound";
 import PageContextProvider from "./context/pageContext";
+import CvContent from "./pages/CvContent";
 function App() {
   return (
-    <div className="App row">
+    // <div className="App">
+      <main>
       <LanguageContextProvider>
         <ThemeContextProvider>
           <BrowserRouter>
             <PageContextProvider>
-              <Home />
+              {/* <Home /> */}
               <Routes>
-                <Route path="/" element={<About />} />
-                <Route path="/about" element={<About/>} />
-                <Route path="/resume"  element={<Resume />} />
-                <Route path="/project"  element={<Project />} />
+                <Route path="/" element={<Home/>} />
+                <Route path="/about" element={<Home/>} />
+                <Route path="/resume"  element={<Home/>} />
+                <Route path="/project"  element={<Home/>} />
                 <Route path="/project/weatherProject" element={<WeatherProject />} />
-                <Route path="/certificate" element={<Certificate />} />
-                <Route path="/contact"  element={<Contact />} />
+                <Route path="/certificate" element={<Home/>} />
+                <Route path="/contact"  element={<Home/>} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </PageContextProvider>
           </BrowserRouter>
         </ThemeContextProvider>
       </LanguageContextProvider>
-    </div>
+      </main>
+    // </div>
   );
 }
 export default App;

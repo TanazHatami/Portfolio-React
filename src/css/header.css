@@ -1,6 +1,3 @@
-.header{
-    height: 10%;
-}
 .titel::first-letter {
     font-size: 1.5rem;
     font-weight: bold;
@@ -11,8 +8,6 @@
     font-weight: 800;
     /* padding-top: 20px; */
     letter-spacing: 2px;
-    
-    
 }
 .header-bottom-border{
     border-bottom: 1px solid;

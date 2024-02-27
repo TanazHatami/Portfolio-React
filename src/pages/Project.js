@@ -6,13 +6,14 @@ import weather from '../img/weather.png';
 import ImageProject from "../project/weather/imageProject";
 import Description from "../project/weather/description";
 import '../css/project.css'
+import { ScrollContext } from "./Home";
 export default function Project() {
     const { language } = useContext(LanguageContext);
-    const { theme, fontColor } = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
+    const {projectRef}=useContext(ScrollContext);
     return (
         <div className="row">
-           <div className="col-5 content position-absolute top-50 start-50 translate-middle text-start"
-                style={{ "backgroundColor": theme, "color": fontColor }}>
+           <div className="col-12 content" style={{ "backgroundColor": theme }} ref={projectRef}>
                 <div className="row">
                     <div className="col-12">
                         <Header titel={"project"} />

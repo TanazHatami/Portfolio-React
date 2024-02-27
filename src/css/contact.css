@@ -1,0 +1,12 @@
+.contact textarea {
+    resize: none;
+}
+
+.contact .btn:hover {
+    background-color: orange;
+}
+
+.content .error {
+    font-size: 14px;
+    color: #aaa;
+}

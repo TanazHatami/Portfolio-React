@@ -12,7 +12,7 @@ export default function WeatherProject() {
     const [weatherLocation, setWeatherLocation] = useState('');
     const [weatherCurrent, setWeatherCurrent] = useState('');
     const { theme, fontColor } = useContext(ThemeContext);
-   
+
     useEffect(() => {
         if (capital !== '')
             axios.request(`http://api.weatherapi.com/v1/current.json?key=2bf2c701229643f487e101138241701&q=${capital}&aqi=yes`).then(
@@ -23,23 +23,27 @@ export default function WeatherProject() {
             )
     }, [capital]);
     return (
-        <div className="row project-row ">
+        <div className="row project-row">
             <div className="col-12 project-container text-start position-absolute top-50 start-50 translate-middle"
                 style={{ "backgroundColor": theme, "color": fontColor }}>
-                <HeaderProjects />
-                <div className='row  weather-content'>
-                    <div className='col-4 pt-3'>
-                        <select className=' text-break' onChange={(e)=>setCapital(e.target.value)} multiple>
+                <div className='row'>
+                    <div className='col-12 '>
+                        <HeaderProjects />
+                    </div>
+                </div>
+                <div className='row weather-content'>
+                    <div className='col-4 py-3'>
+                        <select className=' text-break' onChange={(e) => setCapital(e.target.value)} multiple>
                             {
                                 capitalList?.city.sort().map((city, key) => {
                                     return (
-                                        <ListCity city={city} key={key}/>
+                                        <ListCity city={city} key={key} />
                                     )
                                 })
                             }
                         </select>
                     </div>
-                    <div className='col-8'>
+                    <div className='col-8 h-100'>
                         <Location location={weatherLocation} />
                         <Weather current={weatherCurrent} />
                     </div>

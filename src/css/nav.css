@@ -1,4 +1,14 @@
-
+.nav-position {
+    position: relative;
+}
+.rounded-bottom {
+    border-bottom-right-radius: var(--bs-border-radius)!important;
+    border-bottom-left-radius: var(--bs-border-radius)!important;
+}
+.rounded-top {
+    border-top-left-radius: var(--bs-border-radius)!important;
+    border-top-right-radius: var(--bs-border-radius)!important;
+}
 .nav a {
     text-align: center;
     text-decoration: none;
@@ -6,29 +16,86 @@
     width: 100%;
     font-size: 20px;
 }
+
 .menu-bar a span {
     font-size: 12px;
     text-transform: uppercase;
 }
-.menu-bar a:hover:not(.active) span{
+
+.menu-bar a:hover:not(.active) span {
     color: orange;
 }
-.tool-bar a:hover:not(.active) span{
+
+.tool-bar a:hover:not(.active) span {
     color: orange;
 }
-.menu-bar a:hover:not(.active) svg{
+
+.menu-bar a:hover:not(.active) svg {
     color: orange;
 }
-.tool-bar a:hover:not(.active) svg{
+
+.tool-bar a:hover:not(.active) svg {
     color: orange;
 }
-.nav .not-active:hover{
+
+.nav .not-active:hover {
     cursor: pointer;
 }
-.nav .active:hover{
+
+.nav .active:hover {
     cursor: default;
 }
-.tool-bar a{
+
+.tool-bar a {
     font-size: 20px;
 }
 
+@media screen and (min-width:768px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* Tablett */
+@media screen and (min-width:768px) and (max-width:991px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-position {
+        position: fixed;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .nav-position {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        
+    }
+    .rounded-bottom {
+        border-bottom-right-radius: 0!important;
+        border-bottom-left-radius: 0!important;
+    }
+    .rounded-top {
+        border-top-left-radius:0!important;
+        border-top-right-radius: 0!important;
+    }
+    .mt-2 {
+        margin: auto!important;
+        /* padding: 0; */
+    }
+    .tool-bar a {
+        width: 50%;
+    }
+
+    .menu-bar a {
+        width: 20%;
+    }
+
+    .menu-bar span {
+        display: none;
+    }
+}

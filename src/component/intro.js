@@ -3,17 +3,20 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import '../css/intro.css';
 import SocialMedia from './socialMedia';
+import { useContext } from 'react';
+import { ThemeContext } from '../context/themeContext';
 export default function Intro() {
+    const {theme}=useContext(ThemeContext);
     library.add(fab);
     return (
-        <div className='intro'>
-            <div className='row'>
-                <div className='col-12'>
-                    <img src={personalImage} className='w-100 h-100 rounded-bottom-pill' />
+        <div className='intro ' >
+            <div className='row' >
+                <div className='col-lg-12 rounded-top'>
+                    <img src={personalImage} className='w-100 h-100  rounded-bottom-circle rounded-top-2' />
                 </div>
             </div>
             <div className='row my-3'>
-                <div className='col-12'>
+                <div className='col-lg-12'>
                     <h4>Elaheh Hatami Ramsheh</h4>
                 </div>
             </div>
