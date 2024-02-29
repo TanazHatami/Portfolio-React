@@ -10,10 +10,10 @@ export default function HeaderProjects() {
     const { theme, fontColor } = useContext(ThemeContext);
     return (
         <div className="row header-project" style={{ "backgroundColor": fontColor, "color": theme }}>
-            <div className="col-11">
+            <div className="col-lg-11 col-md-10 col-sm-10 col-10">
                 <Header titel={"Weatherproject"} border={false} />
             </div>
-            <div className='col-1 close '>
+            <div className='col-lg-1 col-md-2 col-sm-2 col-2 close '>
                 <Link to={"/project"} >
                     <FontAwesomeIcon icon={faCircleXmark} />
                 </Link>

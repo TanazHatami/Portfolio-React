@@ -56,12 +56,15 @@
   }
   .education{
     border-bottom: 1px solid orange;
+    /* margin-bottom: 10px; */
+    padding-bottom: 20px;
   }
   .education-box{
     border: 1px solid orange;
+    /* border-top: none; */
     border-radius: 20px;
-    margin:0 5px 20px 5px;
-    padding-bottom: 5px;
+    /* margin:0 5px 20px 5px; */
+    /* padding-bottom: 5px; */
   }
   .education .row .resume-date {
    min-width: 100%;
@@ -69,13 +72,21 @@
    padding: 0;
    text-align: center;
   }
-  .education .resume-date p{
+  .education .col-date{
+    background-color: orange;
     border-radius: 20px;
+    position: relative;
+  }
+  .education .resume-date p{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+  transform: translate(-50%,-50%);
     width: 100%;
     font-size: 12px;
     font-weight: bold;
     padding: 5px;
-    background-color: orange;
+    
   }
   .skill-row{
     margin-bottom: 20px;
@@ -91,3 +102,65 @@
   .skill-line{
     border-radius: 5px;
   }
+
+/* Tablett -md*/
+@media screen and (min-width: 768px) and (max-width:991px) {
+.education-box{
+  margin-bottom: 20px;
+}
+.education .resume-date{
+  height: 100px;
+}
+.education .col-date{
+  position: relative;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+}
+.education .resume-date p{
+  position: absolute;
+   top: 50%;
+   left: 50%;
+  transform: translate(-50%,-50%);
+}
+.education .col-description{
+  position: relative;
+}
+.education .col-description .description{
+  position: absolute;
+   top: 50%;
+   left: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+}
+}
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .education-box{
+    margin-bottom: 20px;
+  }
+  .education .resume-date{
+    height: 100px;
+  }
+  .education .col-date{
+    position: relative;
+     border-top-right-radius: 0px;
+     border-bottom-right-radius: 0px;
+  }
+  .education .resume-date p{
+    position: absolute;
+     top: 50%;
+     left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .education .col-description{
+    position: relative;
+  }
+  .education .col-description .description{
+    position: absolute;
+     top: 50%;
+     left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+  }
+  
+}

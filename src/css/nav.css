@@ -1,4 +1,4 @@
-.nav-position {
+.navBar {
     position: relative;
 }
 .rounded-bottom {
@@ -62,18 +62,18 @@
         flex-direction: column;
     }
 
-    .nav-position {
+    .navBar {
         position: fixed;
     }
 }
 
 /* Mobile */
 @media screen and (max-width: 767px) {
-    .nav-position {
+    .navBar {
         position: fixed;
         width: 100%;
         top: 0;
-        
+            
     }
     .rounded-bottom {
         border-bottom-right-radius: 0!important;
@@ -86,6 +86,9 @@
     .mt-2 {
         margin: auto!important;
         /* padding: 0; */
+    }
+    .nav a {
+        margin:10px 0 ;
     }
     .tool-bar a {
         width: 50%;

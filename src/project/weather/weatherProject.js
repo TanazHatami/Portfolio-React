@@ -32,7 +32,7 @@ export default function WeatherProject() {
                     </div>
                 </div>
                 <div className='row weather-content'>
-                    <div className='col-4 py-3'>
+                    <div className='col-lg-4 col-md-4 col-sm-12 py-3'>
                         <select className=' text-break' onChange={(e) => setCapital(e.target.value)} multiple>
                             {
                                 capitalList?.city.sort().map((city, key) => {
@@ -43,7 +43,7 @@ export default function WeatherProject() {
                             }
                         </select>
                     </div>
-                    <div className='col-8 h-100'>
+                    <div className='col-lg-8 col-md-8 col-sm-12 h-100'>
                         <Location location={weatherLocation} />
                         <Weather current={weatherCurrent} />
                     </div>

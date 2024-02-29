@@ -8,7 +8,7 @@ export default function Education({ data }) {
     return (
         <div className="col-12">
             <ResumeHeader titel={language === 'EN' ? "Ausbildung" : "Education"} icon={faBuildingColumns} />
-           <div className="row">
+           <div className="row justify-content-around">
             {data?.map((element,index) => {
                 return (
                     <EducationBox data={element} key={index} />

@@ -1,15 +1,8 @@
 .home-content {
   align-items: center;
 }
-
 .col-intro {
   border-radius: 5px;
-}
-.show-content-lg{
-  display: block;
-}
-.show-content-md{
-  display: none;
 }
 .content {
   height: 400px;
@@ -35,7 +28,6 @@
   }
 
   100% {
-    /* margin-left: 21.5%; */
     z-index: 1;
   }
 
@@ -54,11 +46,7 @@
   .home-content {
     align-items: start;
   }
-  .show-content-lg{
-    display: none;
-  }
   .show-content-md{
-    display: block;
     margin-left: 27%;
   }
   .content {
@@ -74,11 +62,7 @@
     align-items: center;
     
   }
-  .show-content-lg{
-    display: none;
-  }
   .show-content-md{
-    display: block;
     margin-left:0;
   }
   .content {
@@ -91,14 +75,11 @@
  }
  .col-intro{
   position: relative;
-  margin-top: 10px;
-
- 
+  margin-top: 50px;
  }
  .col-nav{
   position: relative;
   width: 100%;
   z-index: 3000;
  }
-  
 }

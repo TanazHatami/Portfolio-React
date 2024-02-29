@@ -50,3 +50,25 @@
    .weather-content .last-update{
     color: #aaa;
    }
+   /* Tablett -md*/
+@media screen and (min-width: 768px) and (max-width:991px) {
+  .project-row{
+    height: 100vh;
+  }
+  .project-container{
+    height: 90vh;
+    overflow: scroll;
+  }
+  
+}
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .project-row{
+    height: 100vh;
+  }
+  .project-container{
+    height: 90%;
+    width: 90%;
+     overflow: scroll;
+  }
+}

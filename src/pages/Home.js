@@ -1,9 +1,10 @@
-import { createContext, useContext, useEffect, useRef } from "react";
+import { createContext, useContext, useRef } from "react";
 import Intro from "../component/intro";
 import Nav from "../component/nav";
 import '../css/home.css';
 import { ThemeContext } from "../context/themeContext";
 import CvContent from "./CvContent";
+import MediaQuery from "react-responsive";
 export const ScrollContext = createContext();
 export default function Home() {
     const { theme, fontColor } = useContext(ThemeContext);
@@ -22,16 +23,20 @@ export default function Home() {
                     <div className="col-lg-4 col-md-8 col-sm-12 col-12 p-0 pb-3 col-intro ms-3" style={{ "backgroundColor": theme }} >
                         <Intro />
                     </div>
-                    {/* diese col erstellt,wenn display grösser als 991px ist */}
-                    <div className="col-lg-5 col-md-8 col-sm-12 col-12 text-start show-content-lg"
+                        {/* diese col erstellt,wenn display grösser als 991px ist */}
+                    <MediaQuery minWidth={992}>
+                    <div className="col-lg-5 col-md-8 col-sm-12 col-12 text-start"
                         style={{ "color": fontColor }}>
                         <CvContent show={'optional'} />
                     </div>
+                    </MediaQuery>
                     {/* diese col erstellt,wenn display kleiner als 991px ist*/}
+                    <MediaQuery maxWidth={991}>
                     <div className="col-lg-5 col-md-8 col-sm-12 col-12 text-start show-content-md"
                         style={{ "color": fontColor }}>
                         <CvContent show={'all'} />
                     </div>
+                    </MediaQuery>
                 </div>
             </ScrollContext.Provider>
         </>
