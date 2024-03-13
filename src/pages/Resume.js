@@ -9,14 +9,14 @@ import Education from "../component/education";
 import Skills from "../component/skills";
 import { ScrollContext } from "./Home";
 export default function Resume() {
-    const { data} = useContext(LanguageContext);
+    const { data } = useContext(LanguageContext);
     const { theme } = useContext(ThemeContext);
     const resume = data?.resume;
-    const {resumeRef}=useContext(ScrollContext);
+    const { resumeRef } = useContext(ScrollContext);
     return (
         <>
-            <div className="row">
-            <div className="col-12 content" style={{ "backgroundColor": theme }} ref={resumeRef}>
+            <div id="resume" className="row m-0" ref={resumeRef}>
+                <div className="col-12 content" style={{ "backgroundColor": theme }} >
                     <div className="row">
                         <div className="col-12">
                             <Header titel={"resume"} />

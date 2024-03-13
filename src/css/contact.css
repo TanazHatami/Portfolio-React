@@ -10,3 +10,16 @@
     font-size: 14px;
     color: #aaa;
 }
+/* Tablett -md*/
+@media screen and (min-width: 768px) and (max-width:991px) {
+   .col-name{
+    margin-bottom: 10px;
+   }
+}
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .col-name{
+        margin-bottom: 10px;
+       }
+    
+}

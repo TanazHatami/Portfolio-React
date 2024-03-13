@@ -21,7 +21,7 @@ export default function Nav() {
       };
     }, [theme]);
     return (
-        <div className="row m-0 p-0 navBar">
+        <div className="row navBar">
             <MediaQuery minWidth={768}>
                 <div className="rounded-top col-lg-12 col-md-12 col-sm-4 col-4" style={{ "backgroundColor": theme }}>
                     <ToolBar />
@@ -34,7 +34,7 @@ export default function Nav() {
                 <div className="rounded-top col-lg-12 col-md-12 col-sm-4 col-4" style={{ "backgroundColor": backColor }}>
                     <ToolBar />
                 </div>
-                <div className="mt-2 rounded-bottom col-lg-12 col-md-12 col-sm-8 col-8" style={{ "backgroundColor": backColor }}>
+                <div className=" rounded-bottom col-lg-12 col-md-12 col-sm-8 col-8" style={{ "backgroundColor": backColor }}>
                     <Menu />
                 </div>
             </MediaQuery>

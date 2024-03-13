@@ -19,17 +19,16 @@ export default function FormContact() {
         console.log(data);
     }
     return (
-        // <div className='row contact'>
-        // <div className='contact'>
+     
         <form className='h-100' onSubmit={handleSubmit(onFormHandler)} >
             <div className='row mb-3 justify-content-around'>
-                <div className='col-6'>
+                <div className='col-lg-6 col-12 col-name '>
                     <input className='form-control' type='text' {...register("name")} placeholder={language === "EN" ? 'Vor- und Nachname' : 'Full Name'} />
                     {errors.name && (
                         <FormError error={language === 'EN' ? 'Bitte geben Sie Ihren Namen ein' : 'Please enter your name'} />
                     )}
                 </div>
-                <div className='col-6'>
+                <div className='col-lg-6 col-12'>
                     <input className='form-control' type='text' {...register("email")} placeholder={language === "EN" ? 'E-Mail Adresse' : 'Email Address'} />
                     {errors.email && (
                         <>
@@ -56,7 +55,6 @@ export default function FormContact() {
                 </div>
             </div>
         </form>
-        // </div>
-        // </div>
+    
     )
 }

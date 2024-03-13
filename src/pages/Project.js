@@ -13,8 +13,8 @@ export default function Project() {
     const { theme } = useContext(ThemeContext);
     const {projectRef}=useContext(ScrollContext);
     return (
-        <div className="row">
-           <div className="col-12 content" style={{ "backgroundColor": theme }} ref={projectRef}>
+        <div id="project" className="row m-0" ref={projectRef}>
+           <div className="col-12 content" style={{ "backgroundColor": theme }} >
                 <div className="row">
                     <div className="col-12">
                         <Header titel={"project"}/>

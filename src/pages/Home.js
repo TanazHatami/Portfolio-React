@@ -15,27 +15,27 @@ export default function Home() {
     const contactRef = useRef(null);
     return (
         <>
-            <ScrollContext.Provider value={{ aboutRef,resumeRef,certificateRef,projectRef,contactRef }}>
-                <div className="row w-100 h-100 home-content" style={{ "color": fontColor }} >
-                    <div className="col-lg-1 offset-lg-1 col-md-2 offset-md-1 col-sm-12 col-12 p-0 col-nav">
+            <ScrollContext.Provider value={{ aboutRef, resumeRef, certificateRef, projectRef, contactRef }}>
+                <div className="row home-content" style={{ "color": fontColor }} >
+                    <div className="col-lg-1 col-md-2 col-sm-12 col-12 col-nav">
                         <Nav />
                     </div>
-                    <div className="col-lg-4 col-md-8 col-sm-12 col-12 p-0 pb-3 col-intro ms-3" style={{ "backgroundColor": theme }} >
+                    <div className="col-lg-4 col-md-8 col-sm-12 col-12 p-0 pb-3 col-intro" style={{ "backgroundColor": theme }} >
                         <Intro />
                     </div>
-                        {/* diese col erstellt,wenn display grösser als 991px ist */}
+                    {/* diese col erstellt,wenn display grösser als 991px ist */}
                     <MediaQuery minWidth={992}>
-                    <div className="col-lg-5 col-md-8 col-sm-12 col-12 text-start"
-                        style={{ "color": fontColor }}>
-                        <CvContent show={'optional'} />
-                    </div>
+                        <div className="col-lg-5 col-md-8 col-sm-12 col-12 text-start col-content"
+                            style={{ "color": fontColor}}>
+                            <CvContent show={'optional'} />
+                        </div>
                     </MediaQuery>
                     {/* diese col erstellt,wenn display kleiner als 991px ist*/}
                     <MediaQuery maxWidth={991}>
-                    <div className="col-lg-5 col-md-8 col-sm-12 col-12 text-start show-content-md"
-                        style={{ "color": fontColor }}>
-                        <CvContent show={'all'} />
-                    </div>
+                        <div className="col-lg-5 col-md-8 col-sm-12 col-12 text-start show-all-content mb-3 col-content"
+                            style={{ "color": fontColor}}>
+                            <CvContent show={'all'} />
+                        </div>
                     </MediaQuery>
                 </div>
             </ScrollContext.Provider>

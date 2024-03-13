@@ -1,18 +1,23 @@
-img{
+.col-intro img{
     background-color: rgba(30, 49, 43, 0.859);
     filter: brightness(1.1);
     filter: contrast(120%);
     
 }
-.intro a:hover svg{
+
+.col-intro a:hover svg{
     color: orange;
 }
-.intro a svg{
+.col-intro a svg{
     width: 25px;
     height: 25px;
 }
-/* Mobile */
-@media screen and (max-width: 576px) {
+/* Tablett -md*/
+@media screen and (min-width: 768px) and (max-width:991px) {
    
+}
+/* Mobile */
+@media screen and (max-width: 767px) {
+  
     
 }

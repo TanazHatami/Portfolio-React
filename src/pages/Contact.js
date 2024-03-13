@@ -9,8 +9,8 @@ export default function Contact() {
     const { theme} = useContext(ThemeContext);
     const {contactRef}=useContext(ScrollContext);
     return (
-        <div className="row">
-           <div className="col-12 content" style={{ "backgroundColor": theme }} ref={contactRef}>
+        <div id='contact' className="row m-0" ref={contactRef}>
+           <div className="col-12 content" style={{ "backgroundColor": theme }} >
                 <div className="row">
                     <div className="col-12" >
                         <Header titel={"contact"} />
