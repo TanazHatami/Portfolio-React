@@ -1,0 +1,9 @@
+@import "../src/css/reset.css";
+@import"../src/css/grid.css";
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+}
+:root{
+  --secondary-color:#ff9800;
+}

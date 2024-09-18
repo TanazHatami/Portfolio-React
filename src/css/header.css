@@ -1,0 +1,20 @@
+.content__header{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .25rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.content__header::first-letter {
+    color:var(--secondary-color);
+    text-transform: uppercase;
+}
+.content__header-border-bottom{
+    border-bottom: .4rem solid;
+    border-radius: .8rem;
+    margin-bottom: 1.5rem;
+   }
+.content__header-no-border{
+    border: none;
+}
+

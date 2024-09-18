@@ -1,0 +1,136 @@
+/* 
+  Resume Global 
+*/
+.resume-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.resume-header svg {
+  width: 2.8rem;
+  height: 2.8rem;
+  color:var(--secondary-color);
+}
+
+.resume-header__title {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.resume-box__date {
+  display: inline-block;
+  border: .1rem solid var(--secondary-color);
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  padding: .5rem 1rem;
+  margin-bottom: .6rem;
+}
+
+.resume-box-position {
+  margin-bottom: .6rem;
+  padding-left: 1rem;
+}
+
+.resume-box__titel {
+  font-size: 1.4rem;
+  color:var(--secondary-color);
+  padding-left: 1rem;
+}
+
+.resume-box__location {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+/*
+  Experience
+*/
+.resume-box__detail {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.resume-box__detail::before {
+  content: ' ';
+  position: absolute;
+  top: .6rem;
+  left: 0;
+  bottom: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  background-color:var(--secondary-color);
+}
+
+.resume-box__detail:last-child {
+  margin-bottom: 3rem;
+}
+
+/*
+  Education
+*/
+.education-wrapper {
+  border-left: .1rem solid var(--secondary-color);
+  margin-bottom: 3rem;
+}
+
+.education__title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education__title::before {
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 100%;
+  position: absolute;
+  top: .5rem;
+  left: -.5rem;
+
+}
+
+.education__title .resume-box__titel {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/*
+  Skill
+*/
+.skill-titel {
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.skill-line {
+  border-radius: 5px;
+  height: 1rem;
+  background-color: var(--secondary-color);
+  margin-bottom: 2.2rem;
+}
+
+.skill-line:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:484px) {
+  .education__title{
+    flex-direction: column-reverse;
+    display: inline-flex;
+    align-items: self-start;
+  }
+  .education__title .resume-box__date{
+    margin-left: 1rem;
+  }
+}

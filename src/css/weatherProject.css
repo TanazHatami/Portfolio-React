@@ -1,0 +1,60 @@
+.mini-project {
+  width: 100%;
+}
+.project-weather {
+  margin-top: 2rem;
+}
+
+.project-weather__list {
+  width: 100%;
+}
+
+.project-weather__content {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.project-weather__list {
+  cursor: pointer;
+}
+
+.project-weather__list option:hover {
+  color: var(--secondary-color);
+}
+
+.project-weather__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-color);
+  border: .1rem solid var(--secondary-color);
+  border-radius: 3rem;
+  padding: .8rem 0;
+  margin-bottom: 1rem;
+}
+.project-weather__location p{
+  margin: 0;
+}
+.project-weather__icon-wrapper {
+  margin-bottom: 2rem;
+}
+
+
+.project-weather__status {
+  color: --secondary-color;
+}
+
+.project-weather__details-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.project-weather-detail__title {
+  color: var(--secondary-color);
+}
+
+.project-weather-update__date {
+  color: #aaa;
+}
+

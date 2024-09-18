@@ -1,0 +1,95 @@
+{
+    "about": {
+        "name": "Hello! I am Elaheh Hatami Ramsheh",
+        "about": "Frond-end developer from Germany, Leipzig. Bachelor in Computer Software Technology Engineering. I have in-depth knowledge of JavaScript and experience working with Git and GitHub. Looking for an opportunity to further develop my skills in a dynamic development team.",
+        "email": "ehatami65@gmail.com",
+        "tel": "00491779076870",
+        "address": "Leipzig, Germany"
+    },
+    "resume": {
+        "skills": [
+            {
+                "header": "html",
+                "value": "90%"
+            },
+            {
+                "header": "css",
+                "value": "80%"
+            },
+            {
+                "header": "bootstrap",
+                "value": "80%"
+            },
+            {
+                "header": "javascript",
+                "value": "60%"
+            },
+            {
+                "header": "jquery",
+                "value": "50%"
+            },
+            {
+                "header": "reactjs",
+                "value": "60%"
+            }
+        ],
+        "education": [
+            {
+                "date": "2008-2010",
+                "titel": "Computer Engineering (Bachelor)",
+                "location": "Shahid Bahonar University of Kerman, Iran"
+            },
+            {
+                "date": "2005-2007",
+                "titel": "Computer Software (Associate Degree)",
+                "location": "Dokhtaran Khansar Technical College, Iran"
+            },
+            {
+                "date": "2003",
+                "titel": "Diploma",
+                "location": "Isfahan, Iran"
+            }
+        ],
+        "experience": [
+            {
+                "date": "Okt.2016 — Jan.2020",
+                "company": "Rayaneh Hamrah",
+                "location": "Isfahan, Iran",
+                "titel": "Web designer",
+                "content": [
+                    "Design and implement user interfaces using HTML, CSS, Bootstrap to create attractive and user-friendly websites.",
+                    "Create responsive websites that adapt to different screen sizes and provide an optimal user experience on desktops, tablets and smartphones.",
+                    "Troubleshoot and optimize existing applications.",
+                    "Work with an interdisciplinary team to develop and maintain web software solutions."
+                ]
+            },
+            {
+                "date": "Aug.2011 — Jun.2016",
+                "company": "Kavosh Sanate Sepahan",
+                "location": "Isfahan, Iran",
+                "titel": "Programmer",
+                "content": [
+                    "Development of software solutions using C# and the .NET Framework.",
+                    "Programming, development and implementation of the company's CRM using C# & SQL Server."
+                ]
+            }
+        ],
+        "certificate": [
+            {
+                "titel": "Deutsch B1",
+                "institute": "g.a.s.t.",
+                "location": "Leipzig, Germany"
+            },
+            {
+                "titel": "JavaScript Developer",
+                "institute": "alfatraining Bildungszentrum GmbH",
+                "location": "Leipzig, Germany"
+            },
+            {
+                "titel": "React JavaScript‐Bibliothek ",
+                "institute": "alfatraining Bildungszentrum GmbH",
+                "location": "Leipzig, Germany"
+            }
+        ]
+    }
+}
