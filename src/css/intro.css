@@ -1,7 +1,7 @@
 .intro__img {
   background-image: url(../img/1.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 35rem;
   border-top-left-radius: 2.6rem;
   border-top-right-radius: 2.6rem;
@@ -59,13 +59,6 @@
 .intro__link:hover svg {
   color: var(--secondary-color);
 }
-
-@media screen and (max-width: 992px) {
-  .intro__img {
-    background-position: top;
-  }
-}
-
 @media screen and (max-width: 356px) {
 
   .intro__job,
