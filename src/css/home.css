@@ -21,7 +21,7 @@
   overflow-y: scroll;
   overflow-x: hidden;
   padding: 4rem;
-  animation: box-content-show 1000ms linear;
+  animation: 2000ms box-content-show;
 }
 
 .content--active {

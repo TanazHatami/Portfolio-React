@@ -26,12 +26,16 @@
                 "value": "60%"
             },
             {
-                "header": "jquery",
+                "header": "reactjs",
+                "value": "60%"
+            },
+            {
+                "header": "RESTful API ",
                 "value": "50%"
             },
             {
-                "header": "reactjs",
-                "value": "60%"
+                "header": "CRUD",
+                "value": "50%"
             }
         ],
         "education": [
@@ -53,25 +57,25 @@
         ],
         "experience": [
             {
-                "date": "Okt.2016 — Jan.2020",
+                "date": "Okt.2016 — Jan.2021",
                 "company": "Rayaneh Hamrah",
                 "location":"Isfahan, Iran",
-                "titel": "Webentwicklerin",
+                "titel": "Webentwicklerin (Projekt)",
                 "content": [
-                    "Design und Implementierung von Benutzeroberflächen unter Verwendung von HTML, CSS, Bootstrap um ansprechende und benutzerfreundliche Websites zu erstellen.",
-                    "Erstellung von responsiven Webseiten, die sich an verschiedene Bildschirmgrößen anpassen und eine optimale Benutzererfahrung auf Desktops, Tablets und Smartphones bieten.",
-                    "Fehlerbehebung und Optimierung bestehender Anwendungen.",
-                    "Zusammenarbeit mit einem interdisziplinären Team zur Entwicklung und Wartung von Web-Softwarelösungen."
+                    "Entwicklung von Frontend-Benutzeroberflächen für mehrere komplexe Webanwendungen mit HTML, CSS, JavaScript und Bootstrap.",
+                    "Optimierte Websites für maximale Geschwindigkeit und Skalierbarkeit bei gleichzeitiger Gewährleistung der Kompatibilität mit verschiedenen Browsern und Geräten.",
+                    "Zusammenarbeit mit Webdesignern und Backend-Entwicklern, um sicherzustellen, dass die Webanwendungen den Kundenanforderungen entsprechen."
                 ]
             },
             {
                 "date": "Aug.2011 — Jun.2016",
-                "company": "Kavosh Sanate Sepahan",
+                "company": "Kavosh",
                 "location":"Isfahan, Iran",
-                "titel": "Programmiererin",
+                "titel": "Webadministrator",
                 "content": [
-                    "Entwicklung von Softwarelösungen unter Verwendung von C# und dem .NET Framework.",
-                    "Programmierung, Entwicklung und Implementierung von CRM der Firma durch C# & SQL Server."
+                    "Entwicklung benutzerfreundlicher, responsiver Weblayouts mit HTML und CSS.",
+                    "Anpassung und Gestaltung von Website-Layouts gemäß Kundenanforderungen unter Anwendung von UI/UX-Best Practices zur Steigerung des Nutzerengagements.",
+                    "Optimierung der Seitennavigation durch Reduzierung der Ladezeit auf unter drei Sekunden."
                 ]
             }
         ],
@@ -87,7 +91,7 @@
                 "location":"Leipzig, Deutschland"
             },
             {
-                "titel":"React JavaScript‐Bibliothek ",
+                "titel":"React JavaScript Bibliothek ",
                 "institute":"alfatraining Bildungszentrum GmbH",
                 "location":"Leipzig, Deutschland"
             }

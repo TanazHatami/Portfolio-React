@@ -1,4 +1,3 @@
-import personalImage from '../img/1.jpg';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import '../css/intro.css';
@@ -10,8 +9,9 @@ export default function Intro() {
     library.add(fab);
     return (
         <>
-            {<div className='intro__img' style={{ "backgroundColor": theme }} >
-            </div>}
+            <div className='intro__img' style={{ "backgroundColor": theme }}
+            onContextMenu={(e) => e.preventDefault()} >
+            </div>
             <h4 className='intro__name'>Elaheh Hatami Ramsheh</h4>
             <h1 className='intro__job'>Frontend Developer</h1>
             <div className='intro-links-wrapper'>

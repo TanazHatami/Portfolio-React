@@ -25,12 +25,16 @@
                 "value": "60%"
             },
             {
-                "header": "jquery",
+                "header": "reactjs",
+                "value": "60%"
+            },
+            {
+                "header": "RESTful API ",
                 "value": "50%"
             },
             {
-                "header": "reactjs",
-                "value": "60%"
+                "header": "CRUD",
+                "value": "50%"
             }
         ],
         "education": [
@@ -52,25 +56,25 @@
         ],
         "experience": [
             {
-                "date": "Okt.2016 — Jan.2020",
+                "date": "Okt.2016 — Jan.2021",
                 "company": "Rayaneh Hamrah",
                 "location": "Isfahan, Iran",
-                "titel": "Web designer",
+                "titel": "Web Developer (Project)",
                 "content": [
-                    "Design and implement user interfaces using HTML, CSS, Bootstrap to create attractive and user-friendly websites.",
-                    "Create responsive websites that adapt to different screen sizes and provide an optimal user experience on desktops, tablets and smartphones.",
-                    "Troubleshoot and optimize existing applications.",
-                    "Work with an interdisciplinary team to develop and maintain web software solutions."
+                    "Development of frontend user interfaces for multiple complex web applications using HTML, CSS, JavaScript, and Bootstrap.",
+                    "Optimized websites for maximum speed and scalability while ensuring compatibility with various browsers and devices.",
+                    "Collaboration with web designers and backend developers to ensure that web applications meet client requirements."
                 ]
             },
             {
                 "date": "Aug.2011 — Jun.2016",
-                "company": "Kavosh Sanate Sepahan",
+                "company": "Kavosh",
                 "location": "Isfahan, Iran",
-                "titel": "Programmer",
+                "titel": "Web Administrator",
                 "content": [
-                    "Development of software solutions using C# and the .NET Framework.",
-                    "Programming, development and implementation of the company's CRM using C# & SQL Server."
+                    "Development of user-friendly, responsive web layouts using HTML and CSS.",
+                    "Customization and design of website layouts based on client requirements, applying UI/UX best practices to enhance user engagement.",
+                    "Optimization of site navigation by reducing load time to under three seconds."
                 ]
             }
         ],

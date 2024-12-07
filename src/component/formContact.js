@@ -23,6 +23,8 @@ export default function FormContact() {
         console.log(data);
     }
     return (
+        <>
+      
         <form className='form' onSubmit={handleSubmit(onFormHandler)} >
             <input className='form__input' type='text' {...register("name")} placeholder={language === "EN" ? 'Vor- und Nachname' : 'Full Name'} style={inputStyle} />
             {errors.name && (
@@ -37,13 +39,15 @@ export default function FormContact() {
                         <FormError error={language === 'EN' ? 'E-mail Adresse ist ungültig' : 'Email Address is not valid'} />)}
                 </>
             )}
-            <textarea className='form__input' rows='6' {...register("message")} placeholder={language === "EN" ? 'Ihre Nachricht' : 'Your Message'} style={inputStyle}>
+            <textarea className='form__input' rows='6' {...register("message")} placeholder={language === "EN" ?
+                 'Leider können wir aufgrund der gesetzlichen Bestimmungen in Deutschland derzeit keine Formulardaten speichern oder per E-Mail versenden. Wir bitten um Ihr Verständnis.' :
+                  'Unfortunately, due to legal regulations in Germany, we are currently unable to store form data or send it via email. We appreciate your understanding.'} style={inputStyle}>
             </textarea>
             {errors.message && (
                 <FormError error={language === 'EN' ? 'Bitte geben Sie Ihre Nachricht ein' : 'Please enter your message'} />
             )}
             <button type="submit" className='btn form__btn' style={{ "borderColor": fontColor, "color": fontColor }}>{language === "EN" ? 'Nachricht senden' : 'send Message'}</button>
         </form>
-
+        </>
     )
 }
