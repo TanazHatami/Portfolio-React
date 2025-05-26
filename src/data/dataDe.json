@@ -26,16 +26,12 @@
                 "value": "60%"
             },
             {
+                "header": "jquery",
+                "value": "50%"
+            },
+            {
                 "header": "reactjs",
                 "value": "60%"
-            },
-            {
-                "header": "RESTful API ",
-                "value": "50%"
-            },
-            {
-                "header": "CRUD",
-                "value": "50%"
             }
         ],
         "education": [
@@ -57,29 +53,43 @@
         ],
         "experience": [
             {
-                "date": "Okt.2016 — Jan.2021",
-                "company": "Rayaneh Hamrah",
+                "date": "Apr.2021 — Mär.2023",
+                "company": "Freiberuflich",
                 "location":"Isfahan, Iran",
-                "titel": "Webentwicklerin (Projekt)",
+                "titel": "Webentwicklerin",
                 "content": [
-                    "Entwicklung von Frontend-Benutzeroberflächen für mehrere komplexe Webanwendungen mit HTML, CSS, JavaScript und Bootstrap.",
-                    "Optimierte Websites für maximale Geschwindigkeit und Skalierbarkeit bei gleichzeitiger Gewährleistung der Kompatibilität mit verschiedenen Browsern und Geräten.",
-                    "Zusammenarbeit mit Webdesignern und Backend-Entwicklern, um sicherzustellen, dass die Webanwendungen den Kundenanforderungen entsprechen."
+                    "Erstellung und Wartung kleiner Webseiten für lokale Kunden mit Javascript",
+                    "Verwendung von HTML, CSS und Bootstrap, um responsive Designs umzusetzen."
                 ]
             },
             {
-                "date": "Aug.2011 — Jun.2016",
-                "company": "Kavosh",
+                "date": "Okt.2014 — Mär.2021",
+                "company": "Mahshid Klinik",
                 "location":"Isfahan, Iran",
-                "titel": "Webadministrator",
+                "titel": "Joomla-Webadministratorin",
                 "content": [
-                    "Entwicklung benutzerfreundlicher, responsiver Weblayouts mit HTML und CSS.",
-                    "Anpassung und Gestaltung von Website-Layouts gemäß Kundenanforderungen unter Anwendung von UI/UX-Best Practices zur Steigerung des Nutzerengagements.",
-                    "Optimierung der Seitennavigation durch Reduzierung der Ladezeit auf unter drei Sekunden."
+                    "Gestaltung und Umsetzung eines benutzerfreundlichen, responsiven Weblayouts mit Joomla.",
+                    "Betreuung und Wartung der Webseite.",
+                    "Optimierung und Pflege von Webseiteninhalten."
+                ]
+            },
+            {
+                "date": "Nov.2011 — Aug.2014",
+                "company": "Kavosh Sanate Sepahan Co. (KSS) ",
+                "location":"Isfahan, Iran",
+                "titel": "Joomla-Webadministratorin",
+                "content": [
+                    "Verwaltung und Wartung der Webseite.",
+                    "Aktualisierung und Pflege von Inhalten (Texte, Bilder, Videos)."
                 ]
             }
         ],
         "certificate":[
+            {
+                "titel":"Deutsch B2",
+                "institute":"Telc",
+                "location":"Leipzig, Deutschland"
+            },
             {
                 "titel":"Deutsch B1",
                 "institute":"g.a.s.t.",
@@ -91,7 +101,7 @@
                 "location":"Leipzig, Deutschland"
             },
             {
-                "titel":"React JavaScript Bibliothek ",
+                "titel":"React JavaScript‐Bibliothek ",
                 "institute":"alfatraining Bildungszentrum GmbH",
                 "location":"Leipzig, Deutschland"
             }
