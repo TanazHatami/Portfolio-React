@@ -3,7 +3,7 @@ export default function ImageProject({ img, showProjectRef }) {
     return (
         <>
             <Link onClick={() => showProjectRef.current = !showProjectRef.current} className="project__link">
-                <img src={img} className="project__img" />
+                <img src={img} alt="Weather" className="project__img" />
             </Link>
 
         </>

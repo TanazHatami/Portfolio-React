@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import { useContext, useEffect, useState } from "react";
+import { useContext} from "react";
 import { ThemeContext } from "../context/themeContext";
 import { PageContext } from "../context/pageContext";
 import { ScrollContext } from "../pages/Home";
@@ -10,15 +10,15 @@ export default function MenuItem(props) {
     const { aboutRef, resumeRef, certificateRef, projectRef, contactRef } = useContext(ScrollContext);
    
     function handleScroll() {
-        if (props.code == 'about') {
+        if (props.code === 'about') {
             aboutRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else if (props.code == 'resume') {
+        } else if (props.code === 'resume') {
             resumeRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else if (props.code == 'certificate') {
+        } else if (props.code === 'certificate') {
             certificateRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else if (props.code == 'project') {
+        } else if (props.code === 'project') {
             projectRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else if (props.code == 'contact') {
+        } else if (props.code === 'contact') {
             contactRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     }

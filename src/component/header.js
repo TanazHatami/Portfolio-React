@@ -12,7 +12,7 @@ function titelHandle(titel, language) {
     if (language === 'DE') {
         return titel
     } else if (language === 'EN') {
-        if (titel == 'about') return 'über mich'
+        if (titel === 'about') return 'über mich'
         else if (titel === 'resume') return 'lebenslauf'
         else if (titel === 'project') return 'projekt'
         else if (titel === 'certificate') return 'zertifikat'

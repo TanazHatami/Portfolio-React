@@ -1,7 +1,9 @@
 .intro__img {
-  background-image: url(../img/personalphoto.jpg);
+  background-image: url(../img/personalphoto.png);
   background-size: cover;
   background-position: top;
+  background-repeat: no-repeat;
+  filter: brightness(1.1) contrast(1.2);
   height: 35rem;
   border-top-left-radius: 2.6rem;
   border-top-right-radius: 2.6rem;
