@@ -12,7 +12,7 @@ export default function WeatherProject() {
 
     useEffect(() => {
         if (capital !== '')
-            axios.request(`http://api.weatherapi.com/v1/current.json?key=2bf2c701229643f487e101138241701&q=${capital}&aqi=yes`).then(
+            axios.request(`https://api.weatherapi.com/v1/current.json?key=2bf2c701229643f487e101138241701&q=${capital}&aqi=yes`).then(
                 (res) => {
                     setWeatherLocation(res.data.location);
                     setWeatherCurrent(res.data.current);
