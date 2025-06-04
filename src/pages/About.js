@@ -1,4 +1,3 @@
-'use strict';
 import { useContext } from "react";
 import { LanguageContext } from "../context/languageContext";
 import Header from "../component/header";

@@ -104,6 +104,6 @@ export default function CanvasBackground() {
         return () => {
             window.removeEventListener('resize', handleResize);
         }
-    }, [][theme]);
+    }, [theme, fontColor]);
     return <canvas ref={canvasRef} />
 }

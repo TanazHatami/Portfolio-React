@@ -10,12 +10,12 @@ export default function ToolBar() {
     const { language, setLanguage } = useContext(LanguageContext);
     return (
             <nav className='toolbar' >
-                   <a className="toolbar__link" onClick={setLanguage} style={{ "color": fontColor }}>
+                   <button className="toolbar__link" onClick={setLanguage} style={{ "color": fontColor }}>
                     <span class="toolbar__text"> {language}</span>
-                </a>
-                <a className="toolbar__link toolbar__icon" onClick={setTheme} style={{ "color": fontColor }}>
+                </button>
+                <button className="toolbar__link toolbar__icon" onClick={setTheme} style={{ "color": fontColor }}>
                     <FontAwesomeIcon icon={theme === '#fff' ? faMoon : faSun} />
-                </a>
+                </button>
             </nav>
        
     )

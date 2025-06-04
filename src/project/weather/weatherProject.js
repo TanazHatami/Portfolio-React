@@ -1,8 +1,7 @@
-import { useContext, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Location from './location';
 import Weather from './weather';
-import { ThemeContext } from '../../context/themeContext';
 import capitalList from '../../data/capital.json'
 import ListCity from './listCity';
 import '../../css/weatherProject.css';
@@ -10,7 +9,6 @@ export default function WeatherProject() {
     const [capital, setCapital] = useState('Berlin');
     const [weatherLocation, setWeatherLocation] = useState('');
     const [weatherCurrent, setWeatherCurrent] = useState('');
-    const { theme, fontColor } = useContext(ThemeContext);
 
     useEffect(() => {
         if (capital !== '')
