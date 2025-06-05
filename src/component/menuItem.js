@@ -33,10 +33,9 @@ return (
             setPage(props.code);
             handleScroll();
         }}
-
     >
         <FontAwesomeIcon icon={props.icon} /><br />
-        <span class="menubar__text" >{props.text}</span>
+        <span className="menubar__text" >{props.text}</span>
     </Link>
 )
 }

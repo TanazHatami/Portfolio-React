@@ -17,7 +17,7 @@ function App() {
           <CanvasBackground />
         </MediaQuery>
         <main className="main">
-          <div class="container">
+          <div className="container">
             <LanguageContextProvider>
               <BrowserRouter>
                 <PageContextProvider>

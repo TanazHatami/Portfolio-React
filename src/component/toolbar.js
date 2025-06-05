@@ -11,7 +11,7 @@ export default function ToolBar() {
     return (
             <nav className='toolbar' >
                    <button className="toolbar__link" onClick={setLanguage} style={{ "color": fontColor }}>
-                    <span class="toolbar__text"> {language}</span>
+                    <span className="toolbar__text"> {language}</span>
                 </button>
                 <button className="toolbar__link toolbar__icon" onClick={setTheme} style={{ "color": fontColor }}>
                     <FontAwesomeIcon icon={theme === '#fff' ? faMoon : faSun} />

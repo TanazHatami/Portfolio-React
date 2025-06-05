@@ -52,23 +52,31 @@
     padding-top: .5rem;
 }
 
-.toolbar__link:hover span,
-.toolbar__link:hover svg,
-.menubar__link:hover:not(.active) span,
-.menubar__link:hover:not(.active) svg {
-    color: var(--secondary-color);
+.menubar__link.not-active svg,
+.menubar__link.not-active span {
+    color: var(--primary-color);
 }
+
 
 .toolbar .active:hover,
 .menubar .active:hover {
     cursor: default;
 }
 
+@media screen and (min-width:991px) {
+
+    .toolbar__link:hover span,
+    .toolbar__link:hover svg,
+    .menubar__link:hover span,
+    .menubar__link:hover svg {
+        color: var(--secondary-color);
+    }
+}
+
 @media screen and (max-width:991px) {
     .navBar {
         position: fixed;
     }
-
 }
 
 @media screen and (max-width: 767px) {
